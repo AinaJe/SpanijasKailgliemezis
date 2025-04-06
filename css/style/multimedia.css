@@ -1,6 +1,0 @@
-.flexPicture { /*QR koda attēls*/
-  border-radius: var(--radiuss12);
-  height: 8rem;
-  display: block;
-  margin: 20px auto;
-}

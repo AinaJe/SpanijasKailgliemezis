@@ -2,13 +2,11 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
 
 @import url('style/general.css');
-@import url('style/multimedia.css');
 @import url('style/table.css');
 @import url('style/header.css');
 @import url('style/footer.css');
 @import url('style/flexbox.css');
 @import url('style/position.css');
-@import url('style/slider.css');
 @import url('style/animation.css');
 
 :root {
