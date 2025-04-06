@@ -8,6 +8,8 @@
 @import url('style/footer.css');
 @import url('style/flexbox.css');
 @import url('style/position.css');
+@import url('style/slider.css');
+@import url('style/animation.css');
 
 :root {
   font-size: 14pt;

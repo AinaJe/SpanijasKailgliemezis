@@ -1,0 +1,13 @@
+@keyframes animacija {
+  from{
+transform: rotate(0deg) translate(-500px, 100px);
+  }
+  to{
+transform: rotate(10deg) translate(1800px, 100px);
+  }
+}
+
+.animacija {
+  height: 60px;
+animation: animacija 10s 1 cubic-bezier(.64,.22,.24,.7);
+}

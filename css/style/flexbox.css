@@ -5,19 +5,10 @@
   gap: 30px;
   margin: 20px auto;
   flex-wrap: wrap;
- display: flex;
-  justify-content: space-between; /* Novietojam blokus ar atstarpi starp tiem */
-  align-items: flex-start; /* Līdzinām blokus augšpusē */
-  gap: 30px;
-  margin: 20px auto;
-
 }
 .teksts {
 margin: 20px;
 }
-
-
-
 .teksts .slider-container {
   flex: 1 1 50%;
   width: 45%;
