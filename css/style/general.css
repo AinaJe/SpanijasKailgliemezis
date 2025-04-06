@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: var(--krasuPareja);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: var(--gaissTeksts);
+  font-family: var(--virsraksti);
+}
+h1 {
+  font-size: 2.2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h4 {
+  font-size: 1.4rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1rem;
+}
+p, ul, ol, dl {
+  font-family: var(--pamatteksts);
+  text-align: justify;
+}
+dt {
+margin: 20px 0;
+}
+
+.content {
+  width: var(--platums70);
+  background-color: var(--caurspidigsBaltsFons);
+  border-radius: var(--radiuss12);
+  box-shadow: var(--ena);
+}

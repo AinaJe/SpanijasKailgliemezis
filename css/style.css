@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Pinyon+Script&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
+@import url('style/general.css');
+@import url('style/multimedia.css');
+@import url('style/table.css');
+@import url('style/header.css');
+@import url('style/footer.css');
+@import url('style/flexbox.css');
+@import url('style/position.css');
+
+:root {
+  font-size: 14pt;
+  box-sizing: border-box;
+  line-height: 1.5;
+
+  --virsraksti: "DynaPuff", system-ui;
+  --pamatteksts: "Roboto", sans-serif;
+  --dekorativs: "Pinyon Script", cursive;
+
+  --platums30: 30%
+  --platums50: 50%;
+  --platums70: 70%;
+  --platums100: 100%;
+  
+  --krasa1: white;
+  --krasa2: black;
+  --krasa3: #e5e5df;
+  --krasa4: #5d5d5d;
+  --krasa5: #39444d;
+  --krasa6: #db9941;
+  --krasa7: #ae2c11;
+  --krasa8: #07111d;
+
+  --krasuPareja: linear-gradient(var(--krasa6), var(--krasa7));
+  --caurspidigsBaltsFons: rgba(255, 255, 255, 0.281);
+
+  --gaissTeksts: var(--krasa3);
+  --tumssTeksts: var(--krasa8);
+
+  --ena: 4px 4px 4px var(--krasa4);
+
+  --radiuss6: 6px;
+  --radiuss12: 12px;
+  --radiuss20: 20px;
+
+  --piemale_augsa_20: 20px 0 0 0;
+}

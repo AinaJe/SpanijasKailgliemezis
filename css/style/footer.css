@@ -1,0 +1,27 @@
+footer {
+  color: var(--tumssTeksts);
+  background-color: var(--krasa6);
+  padding: 20px;
+  display: flex;
+  height: 190px;
+}
+
+.autors {
+text-align: center;
+font-family: var(--virsraksti);
+}
+.gads {
+  font-family: var(--virsraksti);
+text-align: center;
+font-size: 0.8rem;
+font-style: italic;
+}
+
+.footer {
+  margin: 20px auto;
+  height: 150px;
+}
+.footer img{
+  height: 3rem;
+  margin: 0 50px;
+}

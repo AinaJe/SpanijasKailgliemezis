@@ -1,0 +1,45 @@
+header {
+  position: sticky;/* Fiksēšana augšā pie malas */
+  top: 0px;
+  background-color: var(--krasa6);
+  z-index: 100000; 
+}
+.logo {
+  display: flex;
+  gap: 30px;
+  align-items:center; /*Vertikālais līdzinājums*/
+  margin-left: 30px;
+}
+.header h1, .header p {
+  font-family: var(--dekorativs);
+}
+nav{
+  height: 80px;
+  background-color: var(--krasa7);
+  display: flex;/* Izvietojums */
+  justify-content:flex-start; /* Horizontālais līdzinājums */
+  align-items:center; /*Vertikālais līdzinājums*/
+  gap: 30px;
+  padding-left: 50px; 
+  z-index: 99999;/* Citi elementi ir zem tā */
+  box-shadow: var(--ena);
+  margin-bottom: 40px;
+  
+}
+
+nav a{
+  font-family: var(--pamatteksts);
+  color: var(--krasa1);
+  text-decoration: none;
+}
+
+nav a:not(.active):hover {
+color: var(--krasa6);
+transition: all 0.5s linear;
+}
+
+a.active {
+color: var(--krasa6);
+transition: all 0.5s linear;
+font-size: 1.2rem;
+}
