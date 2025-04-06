@@ -36,10 +36,3 @@ p, ul, ol, dl {
 dt {
 margin: 20px 0;
 }
-
-.content {
-  width: var(--platums70);
-  background-color: var(--caurspidigsBaltsFons);
-  border-radius: var(--radiuss12);
-  box-shadow: var(--ena);
-}

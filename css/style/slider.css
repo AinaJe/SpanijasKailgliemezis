@@ -1,3 +1,26 @@
+.flexbox {
+  display: flex;
+  justify-content:space-around; /* Horizontālais līdzinājums */
+  align-items:flex-start; /*Vertikālais līdzinājums*/
+  /* gap: 15px; */
+  /* margin: 20px auto; */
+  /* flex-wrap: wrap; */
+  width: var(--platums70);
+  background-color: var(--caurspidigsBaltsFons);
+  border-radius: var(--radiuss12);
+  box-shadow: var(--ena);
+  margin: 20px auto;
+}
+.teksts {
+  width: 50%;
+margin: 20px;
+}
+.teksts .slider-container {
+  flex: 1 1 50%;
+  width: 45%;
+  box-sizing: border-box;
+  }
+
 /* Attēlu slaidrāde */
 .multivide { /*Attēli, video utt.*/
   border-radius: var(--radiuss12);
