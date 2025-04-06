@@ -1,10 +1,7 @@
 .flexbox {
   display: flex;
-  justify-content:space-around; /* Horizontālais līdzinājums */
-  align-items:flex-start; /*Vertikālais līdzinājums*/
-  /* gap: 15px; */
-  /* margin: 20px auto; */
-  /* flex-wrap: wrap; */
+  justify-content:space-around; 
+  align-items:center; 
   width: var(--platums70);
   background-color: var(--caurspidigsBaltsFons);
   border-radius: var(--radiuss12);
